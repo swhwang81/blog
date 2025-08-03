@@ -34,11 +34,7 @@ function App() {
         <p>2월 17일 발행</p>
         <hr/>
       </div>
-      <div className='list'>
-        <h3> {글제목[3]} <span onClick={()=>{따봉변경(따봉+1)}}>👍</span> {따봉}</h3>
-        <p>5월 10일 발행</p>
-        <hr/>
-      </div>
+      
     </div>
   );
 }
